@@ -1,8 +1,4 @@
-# OTiS: An open model for general time series analysis
-
-<p align="center">
-  <img src="./figs/otis.png?raw=true" width=100%>
-</p>
+# OTIS: Towards Generalisable Time Series Representations With Tiny Encoders
 
 ## Environment Setup
 Run the following command from the root directory of this project to setup the environment. Note that this command block is only executed once during the initial environment setup.
@@ -55,23 +51,4 @@ Use the `--eval` flag. For classification tasks, e.g. run the following command.
 python3 main_finetune.py --eval --resume $checkpoint --num_workers $num_workers --seed $sd --downstream_task classification --nb_classes $nb_classes --input_channels $input_channels --input_electrodes $input_electrodes --time_steps $time_steps --patch_height $patch_height --patch_width $patch_width --model $model --batch_size $batch_size --epochs $epochs --blr $blr --warmup_epoch $warmup_epochs --data_path $data_path --labels_path $labels_path --val_data_path $val_data_path --val_labels_path $val_labels_path --output_dir $output_dir
 ```
 
-## Results
-### Discriminative Tasks (Classification \& Regression)
-<p align="center">
-  <img src="./figs/discriminative_tasks.png?raw=true" width=100%>
-</p>
-
-### Generative Tasks (Forecasting)
-<p align="center">
-  <img src="./figs/generative_tasks.png?raw=true" width=100%>
-</p>
-
-### General Time Series Understanding
-<p align="center">
-  <img src="./figs/time_series_understanding.png?raw=true" width=100%>
-</p>
-
-### Unified Latent Space
-<p align="center">
-  <img src="./figs/latent_space.png?raw=true" width=100%>
-</p>
+## Updated Results
