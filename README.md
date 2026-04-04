@@ -75,5 +75,8 @@ python3 main_finetune.py --eval --resume $checkpoint --num_workers $num_workers 
 ### 5-Shot UEA
 <img src="figs/5shot_uea.png" alt="5-Shot UEA Results" width="100%">
 
+### 5-Shot UCR
+<img src="figs/5shot_ucr.png" alt="5-Shot UEA Results" width="100%">
+
 ## Notice
 This project includes third-party software components that are subject to their respective licenses. Detailed information including component names, licenses, and copyright holders is provided in the respective files. Please review the LICENSE file before using or distributing this software.
